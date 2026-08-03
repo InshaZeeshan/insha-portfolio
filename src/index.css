@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-cream text-berry font-sans antialiased;
+  background-image: radial-gradient(rgba(66, 13, 25, 0.09) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+::selection {
+  background-color: #f6bad6;
+  color: #2f020c;
+}
+
+/* Visible keyboard focus ring everywhere, on top of any custom styling */
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid #741e31;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.font-display {
+  font-family: 'Fraunces', ui-serif, Georgia, serif;
+}
+
+.font-mono-label {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+/* Respect reduced motion system-wide */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Utility: tiny hand-drawn style rotation helper */
+.tilt-left {
+  transform: rotate(-2.5deg);
+}
+.tilt-right {
+  transform: rotate(2deg);
+}
+
+/* Custom scrollbar, subtle, on-brand */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #fff9f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #f1d3df;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #f6bad6;
+}
