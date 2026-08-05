@@ -62,7 +62,7 @@ export default function Contact() {
           </button>
           {foundSecret && (
             <p className="mt-2 font-mono-label text-[11px] text-cream/70" role="status">
-              @inshaazeeshan
+              IG handle @inshaazeeshan
             </p>
           )}
         </motion.div>

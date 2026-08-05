@@ -11,7 +11,7 @@ const profile = {
   email: 'inshazeeshan15@gmail.com',
   github: 'https://github.com/InshaZeeshan',
   linkedin: 'https://www.linkedin.com/in/insha-zeeshan-904842220/',
-  resumeUrl: 'YOUR_RESUME_URL', // link this to your PDF resume once ready
+  resumeUrl: 'https://drive.google.com/file/d/1o7vjQkFD6OaliCj0NcgFRu7lQKK7rbdM/view?usp=sharing', // link this to your PDF resume once ready
 }
 
 export default profile

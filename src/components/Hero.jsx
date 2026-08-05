@@ -81,12 +81,14 @@ export default function Hero() {
                 <ArrowDown size={16} className="transition-transform group-hover:translate-y-0.5" />
               </button>
               <a
-                href={profile.resumeUrl && profile.resumeUrl !== 'https://drive.google.com/file/d/1o7vjQkFD6OaliCj0NcgFRu7lQKK7rbdM/view?usp=sharing' ? profile.resumeUrl : '#contact'}
-                className="inline-flex items-center gap-2 rounded-full border border-berry/20 bg-white/70 px-6 py-3 font-medium text-berry transition-transform hover:-translate-y-0.5"
-              >
-                <FileText size={16} />
-                the serious document.pdf
-              </a>
+  href={profile.resumeUrl}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-2 rounded-full border border-berry/20 bg-white/70 px-6 py-3 font-medium text-berry transition-transform hover:-translate-y-0.5"
+>
+  <FileText size={16} />
+  the serious document.pdf
+</a>
             </motion.div>
           </div>
 
