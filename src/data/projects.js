@@ -75,7 +75,7 @@ const projects = [
     learned:
       'Hands-on experience with OAuth, third-party API integration, Flask routing, and translating API responses into a usable playlist-generation flow.',
     githubUrl: 'https://github.com/InshaZeeshan/Playsic',
-    liveUrl: 'https://playsic-ybmz.onrender.com/',
+    liveUrl: 'https://playsic-6o44.onrender.com',
   },
 ]
 
