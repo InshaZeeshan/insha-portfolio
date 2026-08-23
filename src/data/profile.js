@@ -7,7 +7,7 @@
 
 const profile = {
   name: 'Insha Zeeshan',
-  role: 'Software Engineer · Enterprise SAP · Exploring ABAP Development',
+  role: 'Software Engineer · Enterprise SAP · Exploring SAP Development',
   email: 'inshazeeshan15@gmail.com',
   github: 'https://github.com/InshaZeeshan',
   linkedin: 'https://www.linkedin.com/in/insha-zeeshan-904842220/',
