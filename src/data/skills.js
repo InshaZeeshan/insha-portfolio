@@ -7,7 +7,7 @@ const skills = [
     id: 'sap-world',
     label: 'SAP WORLD',
     file: 'sap_world.txt',
-    items: ['SAP Basis', 'ABAP', 'SAP Transport Management', 'SAP concepts'],
+    items: ['SAP Basis', 'BTP', 'SAP Transport Management', 'SAP BTP', 'Promt Engineering'],
   },
   {
     id: 'code',
@@ -25,7 +25,7 @@ const skills = [
     id: 'tools',
     label: 'TOOLS',
     file: 'tools.txt',
-    items: ['Git', 'GitHub', 'Docker', 'VS Code', 'Eclipse'],
+    items: ['Git', 'GitHub', 'Docker', 'VS Code', 'Eclipse', 'SAP Joule'],
   },
 ]
 
